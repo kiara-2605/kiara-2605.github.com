@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>统计与数据科学学院</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .top-bar {
+            background-color: #004a87;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #004a87; 
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background-color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .main-content {
+            padding: 20px;
+        }
+
+        .banner {
+            background-color: #0078c8; /* 中蓝色 */
+            padding: 40px 20px;
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .banner-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .banner-title {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .banner-subtitle {
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+
+        .footer {
+            background-color: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+    </div>
+
+    <div class="header">
+        <div class="logo">
+            <div>SD</div>
+        </div>
+        <div>
+            <div class="title">统计与数据科学学院</div>
+            <div class="subtitle">SCHOOL OF STATISTICS AND DATA SCIENCE</div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="banner">
+            <div class="banner-content">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+    </div>
+</body>
+</html>
